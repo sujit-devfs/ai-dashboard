@@ -32,7 +32,7 @@ npm install
 npm start
 ```
 
-Open your browser and visit () to view the application.
+Open your browser and visit [Deployed Live](https://ai-dashboard-rho.vercel.app/) to view the application.
 
 ## Usage
 The AI Insights Dashboard provides visualizations for various aspects of AI data, including response times, category distribution, and user satisfaction. Navigate through the dashboard to explore different charts and graphs displaying insights derived from the provided data.
