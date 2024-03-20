@@ -1,12 +1,44 @@
 h1 {
   text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(148, 54, 212, 1) 0%,
+    rgba(250, 243, 243, 1) 50%,
+    rgb(12, 11, 11) 100%
+  );
+  width: 100vw;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+}
+body {
+  overflow-x: hidden;
+  background-color: #f2f0f3;
+  color: rgb(29, 28, 27);
 }
 .container {
+  min-width: 50vw;
   text-align: center;
   display: flex;
   justify-content: center;
 }
 
 .chart-contchainer {
-    width: 65vw;
+  width: 45vw;
+}
+
+.bar,
+.line,
+.pie {
+  background-color: rgba(34, 32, 32, 0.9);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bar h2,
+.line h2,
+.pie h2 {
+  color: antiquewhite;
+  margin-top: 20px;
+  padding: 5px;
 }
