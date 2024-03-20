@@ -43,7 +43,7 @@ const App = () => {
         {loading ? (
           <p>Loading...</p>
         ) : (
-          <div className="chart-contchainer">
+          <div className="chart-container">
             <CategoryDistributionChart categoryData={categoryData} />
             <ResponseTimesChart responseTimesData={responseTimesData} />
             <UserSatisfactionChart userSatisfactionData={userSatisfactionData} />

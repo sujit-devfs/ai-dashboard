@@ -17,22 +17,19 @@ body {
   color: rgb(29, 28, 27);
 }
 .container {
-  min-width: 50vw;
+  width: auto;
   text-align: center;
   display: flex;
   justify-content: center;
-}
-
-.chart-contchainer {
-  width: 45vw;
 }
 
 .bar,
 .line,
 .pie {
   background-color: rgba(34, 32, 32, 0.9);
-    border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
 
 .bar h2,
@@ -41,4 +38,10 @@ body {
   color: antiquewhite;
   margin-top: 20px;
   padding: 5px;
+}
+
+@media screen and (min-width: 200px) {
+  .chart-container {
+    width: 85vw;
+  }
 }

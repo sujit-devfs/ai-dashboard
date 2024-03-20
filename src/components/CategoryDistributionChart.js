@@ -12,7 +12,7 @@ const CategoryDistributionChart = ({ categoryData }) => {
         <XAxis dataKey="category" stroke="white"/>
         <YAxis stroke="white"/>
         <Tooltip fill="grey"/>
-        <Legend />
+        <Legend layout="vertical"/>
         <Bar dataKey="count" fill="#8530d1" />
       </BarChart>
       </ResponsiveContainer>

@@ -15,7 +15,7 @@ const UserSatisfactionChart = ({ userSatisfactionData }) => {
             nameKey="rating"
             cx="50%"
             cy="50%"
-            outerRadius={100}
+            outerRadius={120}
             fill="#8530d1"
             label
             >
